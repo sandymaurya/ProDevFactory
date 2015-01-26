@@ -1,0 +1,32 @@
+﻿#info-display {
+    margin-bottom: 20px;
+    background: #152;
+}
+#info-display input,#info-display select {
+    color: #333;
+}
+    #info-display span.info {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+
+.loading-indicator {
+    box-sizing: border-box;
+    padding: 0.7em;
+    text-align: center;
+    width: 100%;
+}
+.loading-indicator:before {
+    animation: 1s ease 0s normal none infinite running halfspin;
+    border-color: #646464 #e6e6e6;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 4px;
+    content: "";
+    display: inline-block;
+    margin: 0 0.4em;
+    min-height: 1em;
+    min-width: 1em;
+}

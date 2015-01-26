@@ -1,0 +1,86 @@
+﻿#calender a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #999;
+}
+
+#calender {
+    padding: 20px 0;
+}
+
+#calender ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+}
+
+    #calender ul li {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #calender ul.years {
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+        #calender ul.months li a, #calender ul.years li a {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 1px 1px;
+            font-size: 0.75em;
+            font-weight: bold;
+            background: #708090;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+    #calender ul.dates li a, #calender ul.weeks li a {
+        text-decoration: none;
+        width: 1.75em;
+        display: block;
+        font-size: 3em;
+        border: 1px solid #aaa;
+        background: #eee;
+        margin: 1px 1px 0 0;
+    }
+
+    #calender ul li a:hover {
+        background: #003;
+        color: #fff;
+    }
+
+    #calender ul.dates li a.active {
+        color: #000;
+        background: #aaf;
+    }
+
+    #calender ul.dates li a.selected {
+        color: #000;
+        background: #afa;
+    }
+
+    #calender ul.weeks li a {
+        color: #fff;
+        background: #777;
+        cursor: default;
+    }
+
+        #calender ul.weeks li a:hover {
+            color: #fff;
+            background: #777;
+        }
+
+    #calender ul.years li a.year-name.active, #calender ul.months li a.month-name.active {
+        background: #003;
+        color: #fff;
+    }
+
+    #calender ul.years li a.year-name.selected, #calender ul.months li a.month-name.selected {
+        background: #33e;
+        color: #fff;
+    }

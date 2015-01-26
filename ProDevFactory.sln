@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProDevFactory.Models", "ProDevFactory.Models\ProDevFactory.Models.csproj", "{BE2A7C6E-EF0D-440D-8179-3D09743A597A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProDevFactory.Web", "ProDevFactory.Web\ProDevFactory.Web.csproj", "{3F316A8D-B042-4EA5-BD19-D6B05B257A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skarth.Utilities", "Skarth.Utilities\Skarth.Utilities.csproj", "{20B85D13-25E2-4B65-A5EE-BDAEB0A71BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProDevFactory.ORM", "ProDevFactory.ORM\ProDevFactory.ORM.csproj", "{1697C8D3-4E5D-4F72-A810-0F3E39D09E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProDevFactory.Managers", "ProDevFactory.Managers\ProDevFactory.Managers.csproj", "{5A3E3C67-B8BA-42FD-9AF0-64F01728CE3B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://skarth.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProDevFactory.Models\\ProDevFactory.Models.csproj
+		SccProjectName1 = ProDevFactory.Models
+		SccLocalPath1 = ProDevFactory.Models
+		SccProjectUniqueName2 = ProDevFactory.Web\\ProDevFactory.Web.csproj
+		SccProjectName2 = ProDevFactory.Web
+		SccLocalPath2 = ProDevFactory.Web
+		SccProjectUniqueName3 = Skarth.Utilities\\Skarth.Utilities.csproj
+		SccProjectName3 = Skarth.Utilities
+		SccLocalPath3 = Skarth.Utilities
+		SccProjectUniqueName4 = ProDevFactory.ORM\\ProDevFactory.ORM.csproj
+		SccProjectName4 = ProDevFactory.ORM
+		SccLocalPath4 = ProDevFactory.ORM
+		SccProjectUniqueName5 = ProDevFactory.Managers\\ProDevFactory.Managers.csproj
+		SccProjectName5 = ProDevFactory.Managers
+		SccLocalPath5 = ProDevFactory.Managers
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE2A7C6E-EF0D-440D-8179-3D09743A597A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2A7C6E-EF0D-440D-8179-3D09743A597A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2A7C6E-EF0D-440D-8179-3D09743A597A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2A7C6E-EF0D-440D-8179-3D09743A597A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F316A8D-B042-4EA5-BD19-D6B05B257A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F316A8D-B042-4EA5-BD19-D6B05B257A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F316A8D-B042-4EA5-BD19-D6B05B257A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F316A8D-B042-4EA5-BD19-D6B05B257A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B85D13-25E2-4B65-A5EE-BDAEB0A71BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B85D13-25E2-4B65-A5EE-BDAEB0A71BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B85D13-25E2-4B65-A5EE-BDAEB0A71BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B85D13-25E2-4B65-A5EE-BDAEB0A71BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1697C8D3-4E5D-4F72-A810-0F3E39D09E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1697C8D3-4E5D-4F72-A810-0F3E39D09E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1697C8D3-4E5D-4F72-A810-0F3E39D09E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1697C8D3-4E5D-4F72-A810-0F3E39D09E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3E3C67-B8BA-42FD-9AF0-64F01728CE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3E3C67-B8BA-42FD-9AF0-64F01728CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3E3C67-B8BA-42FD-9AF0-64F01728CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3E3C67-B8BA-42FD-9AF0-64F01728CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
