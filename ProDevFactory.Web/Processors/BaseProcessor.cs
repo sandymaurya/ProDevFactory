@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web;
 using System.Web.Mvc;
+using Microsoft.Owin.Security;
 using ProDevFactory.Managers.Contracts;
 using ProDevFactory.Managers.IdentityManagers;
 
@@ -12,6 +13,7 @@ namespace ProDevFactory.Web.Processors
 
         public UserManager UserManager { get; set; }
         public SignInManager SignInManager { get; set; }
+        public IAuthenticationManager AuthenticationManager { get; set; }
 
         public HttpRequestBase Request { get; set; }
         public HttpSessionStateBase Session { get; set; }

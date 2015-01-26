@@ -1,11 +1,9 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using ProDevFactory.Managers.IdentityManagers;
 using ProDevFactory.Models.Identity;
 using ProDevFactory.Web.Models;
 
@@ -14,6 +12,8 @@ namespace ProDevFactory.Web.Controllers
     [Authorize]
     public class ManageController : BaseController
     {
+        public ManageController(UserManager userManager, IAuthenticationManager authenticationManager) : base(userManager: userManager, authenticationManager: authenticationManager) { }
+
         //
         // GET: /Manage/Index
         public async Task<ActionResult> Index(ManageMessageId? message)
@@ -293,15 +293,7 @@ namespace ProDevFactory.Web.Controllers
         #region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
-
-        private IAuthenticationManager AuthenticationManager
-        {
-            get
-            {
-                return HttpContext.GetOwinContext().Authentication;
-            }
-        }
-
+        
         private async Task SignInAsync(ApplicationUser user, bool isPersistent)
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie, DefaultAuthenticationTypes.TwoFactorCookie);
